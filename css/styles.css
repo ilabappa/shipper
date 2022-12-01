@@ -1,0 +1,90 @@
+
+header {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  background-color: #ffffff;
+}
+
+header h1 {
+  color: #259595;
+}
+
+header a {
+  text-decoration: none;
+  color: #259595;
+}
+
+header a:hover{
+  color: #259595;
+  text-decoration: underline;
+}
+
+header a:visited {
+  color: #000000;
+}
+
+ul.header_nav_list {
+  display:flex;
+  list-style: none;
+  color: #363836;
+  font-weight: bolder;
+}
+
+h1 {
+  color: #259595;
+}
+body{
+  font-family: "Montserrat",sans-serif;
+
+}
+
+li{
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section {
+
+  padding: 10%;
+
+}
+
+.welcome_title h1 {
+  font-size: 46px;
+}
+
+.sec2_row2{
+  display:flex;
+
+}
+.sec2_row2_blurb {
+  width:300px;
+  height: 300px;
+  margin-left: 20px;
+  background-color: #259595;
+
+}
+
+.footer {
+  background-color: #f1f1f1;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 300px;
+}
+
+.footer_link {
+  height: 200px;
+
+}
+
+
+::selection {
+  color: white;
+  background: black;
+}
